@@ -1,0 +1,2 @@
+D:/environment/clang/llvm-project/build/Debug/bin/llvm-ar.exe qc Common.lib CMakeFiles/Common.dir/BaseApplication.cpp.obj CMakeFiles/Common.dir/main.cpp.obj
+D:/environment/clang/llvm-project/build/Debug/bin/llvm-ranlib.exe Common.lib

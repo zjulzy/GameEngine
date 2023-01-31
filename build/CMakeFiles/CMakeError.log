@@ -1,0 +1,105 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-r1r17u
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_626f7/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_626f7.dir/build.make CMakeFiles/cmTC_626f7.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-r1r17u'
+Building C object CMakeFiles/cmTC_626f7.dir/CMakeCCompilerABI.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_626f7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_626f7.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_626f7.dir/CMakeCCompilerABI.c.obj -c D:/environment/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_626f7.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_626f7.dir/objects1 -o cmTC_626f7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_626f7.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-r1r17u/cmTC_626f7.pdb -Xlinker /version:0.0  
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_626f7.dir/build.make:100: cmTC_626f7.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-r1r17u'
+make: *** [Makefile:127: cmTC_626f7/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-umjsu9
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_8ac08/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_8ac08.dir/build.make CMakeFiles/cmTC_8ac08.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-umjsu9'
+Building C object CMakeFiles/cmTC_8ac08.dir/testCCompiler.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_8ac08.dir/testCCompiler.c.obj -MF CMakeFiles/cmTC_8ac08.dir/testCCompiler.c.obj.d -o CMakeFiles/cmTC_8ac08.dir/testCCompiler.c.obj -c D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-umjsu9/testCCompiler.c
+Linking C executable cmTC_8ac08.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_8ac08.dir/objects1 -o cmTC_8ac08.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8ac08.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-umjsu9/cmTC_8ac08.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_8ac08.dir/linkLibs.rsp 
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_8ac08.dir/build.make:101: cmTC_8ac08.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-umjsu9'
+make: *** [Makefile:127: cmTC_8ac08/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-xc8u9p
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_bf854/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_bf854.dir/build.make CMakeFiles/cmTC_bf854.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-xc8u9p'
+Building C object CMakeFiles/cmTC_bf854.dir/CMakeCCompilerABI.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bf854.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_bf854.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_bf854.dir/CMakeCCompilerABI.c.obj -c D:/environment/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bf854.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_bf854.dir/objects1 -o cmTC_bf854.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bf854.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-xc8u9p/cmTC_bf854.pdb -Xlinker /version:0.0  
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_bf854.dir/build.make:100: cmTC_bf854.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-xc8u9p'
+make: *** [Makefile:127: cmTC_bf854/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lqysip
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_cb8d6/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_cb8d6.dir/build.make CMakeFiles/cmTC_cb8d6.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lqysip'
+Building C object CMakeFiles/cmTC_cb8d6.dir/testCCompiler.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cb8d6.dir/testCCompiler.c.obj -MF CMakeFiles/cmTC_cb8d6.dir/testCCompiler.c.obj.d -o CMakeFiles/cmTC_cb8d6.dir/testCCompiler.c.obj -c D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lqysip/testCCompiler.c
+Linking C executable cmTC_cb8d6.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_cb8d6.dir/objects1 -o cmTC_cb8d6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cb8d6.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lqysip/cmTC_cb8d6.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_cb8d6.dir/linkLibs.rsp 
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_cb8d6.dir/build.make:101: cmTC_cb8d6.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lqysip'
+make: *** [Makefile:127: cmTC_cb8d6/fast] Error 2
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lnprho
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_80681/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_80681.dir/build.make CMakeFiles/cmTC_80681.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lnprho'
+Building C object CMakeFiles/cmTC_80681.dir/CMakeCCompilerABI.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_80681.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_80681.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_80681.dir/CMakeCCompilerABI.c.obj -c D:/environment/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_80681.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_80681.dir/objects1 -o cmTC_80681.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_80681.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lnprho/cmTC_80681.pdb -Xlinker /version:0.0  
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_80681.dir/build.make:100: cmTC_80681.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-lnprho'
+make: *** [Makefile:127: cmTC_80681/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ublzny
+
+Run Build Command(s):D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe -f Makefile cmTC_638d1/fast && D:/environment/w64devkit-1.17.0/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_638d1.dir/build.make CMakeFiles/cmTC_638d1.dir/build
+make[1]: Entering directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ublzny'
+Building C object CMakeFiles/cmTC_638d1.dir/testCCompiler.c.obj
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_638d1.dir/testCCompiler.c.obj -MF CMakeFiles/cmTC_638d1.dir/testCCompiler.c.obj.d -o CMakeFiles/cmTC_638d1.dir/testCCompiler.c.obj -c D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ublzny/testCCompiler.c
+Linking C executable cmTC_638d1.exe
+D:/environment/clang/llvm-project/build/Debug/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_638d1.dir/objects1 -o cmTC_638d1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_638d1.lib -Xlinker /pdb:D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ublzny/cmTC_638d1.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_638d1.dir/linkLibs.rsp 
+clang: error: unable to execute command: program not executable
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [CMakeFiles/cmTC_638d1.dir/build.make:101: cmTC_638d1.exe] Error 1
+make[1]: Leaving directory 'D:/ue/project/GameEngine/build/CMakeFiles/CMakeScratch/TryCompile-ublzny'
+make: *** [Makefile:127: cmTC_638d1/fast] Error 2
+
+
+
